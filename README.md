@@ -1,1 +1,2 @@
-# Responsive-Portfolio
+# Basic-Portfolio
+Keri's portfolio

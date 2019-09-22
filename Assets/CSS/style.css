@@ -1,0 +1,246 @@
+/* Media Queries */
+@media only screen and (max-width: 640px) {
+    .Heading-Box {
+        width: 100%;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .navBar {
+        width: 100%;
+        text-align: center;
+    }
+
+    header {
+        height: 105px;
+    }
+}
+
+/* Nav Styles */
+header {
+    background: white;
+    border-bottom-style: solid;
+    border-width: 2px;
+    border-color: #cccccc; 
+    position: relative;
+    overflow: auto;
+}  
+
+.FullNav {
+    max-width: 960px;
+    margin: auto;
+}
+
+.NavBar {
+    background: white;
+    padding: 20px;
+    color: #666666;
+    height: auto;
+    text-align: center;
+}
+
+
+
+section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 120px;
+    overflow: auto;
+    clear: both;
+    width: 960px;
+    background: white;
+    border-style: solid;
+    border-width: thin;
+    border-color: #dddddd; 
+}
+
+/* Text styles */
+h1 {
+    padding: 1rem;
+    font-size: 22px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background:#4aaaa5;   
+    font-weight: bold;
+}
+
+p {
+    color: #777777;
+    line-height: 1.2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: #777777 !important;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #4aaaa5 !important;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #4aaaa5;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.Section-Heading {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #4aaaa5;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.Section-Border {
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #dddddd; 
+    margin-top: 20px;
+}
+
+/* Footer styles */
+.footer {
+    clear: both;
+    background:#666666;
+    padding: 15px;
+    border-top-style: solid;
+    border-width: 8px;
+    width: 100%;
+    border-color: #4aaaa5; 
+    position: fixed;
+    bottom: 0px;
+    height: 5%;
+}
+
+/* Global styles */
+h5 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: none;
+}
+    
+#Name {
+    padding: 20px;
+    width: 100%;
+    float: left;
+    position: absolute;
+    bottom: 0px;
+    font-size: 28px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background:#4aaaa5;   
+    font-weight: bold;
+    z-index: 3;
+}   
+
+#Section-Heading {
+    padding-bottom: 20px;
+    margin: 20px;
+    border-bottom-style: solid;
+    border-color: #cccccc;
+    border-width: thin; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+
+/* About me styles */
+#About-Me-Image {
+    padding-right: 20px;
+    margin-top: 20px;
+    float: left;
+}
+
+#Body-Text {
+    height: 100%;
+    padding-right: 20px;
+    margin-top: 20px;
+}
+
+
+#Footer-Text {
+    color: white;
+    text-align: center;
+    font-size: 8px;
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Portfolio styles */
+.card {
+    margin: 20px;
+    border: none;
+}
+.card-title {
+    margin-bottom: 0px;
+}
+
+.card-deck {
+    width: 960px;
+    margin: auto;
+}
+
+.card-body {
+    z-index: 3;
+    position: absolute;
+    bottom: 5px;
+    background: #4aaaa5;
+    color: white;
+    width: 100%;
+    text-align: center;
+    vertical-align: center;
+    padding: 1rem !important; 
+}
+
+/* Contact form styles */
+.form-group {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.btn {
+    background-color: #4aaaa5;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-radius: 0rem !important;
+}
+
+#formGroupInput {
+    font-size: 12px;
+    color: #777777;
+    border-radius: 0rem !important;
+}
+
+#messageGroupInput {
+    font-size: 12px;
+    color: #777777;
+    border-radius: 0rem !important;
+    height: 300px;
+}
+
+.text-decoration {
+    color: #4aaaa5;
+    font-weight: bold;
+}
+
+.col-md-4 {
+    width: 100%;
+}
