@@ -1,61 +1,39 @@
-/* Media Queries */
-@media only screen and (max-width: 640px) {
-    .Heading-Box {
-        width: 100%;
-        font-size: 16px;
-        text-align: center;
-    }
 
-    .navBar {
-        width: 100%;
-        text-align: center;
-    }
 
-    header {
-        height: 105px;
-    }
-}
-
-/* Nav Styles */
-header {
-    background: white;
+/* Global Nav Styles */
+.Nav-Header {
     border-bottom-style: solid;
     border-width: 2px;
     border-color: #cccccc; 
     position: relative;
     overflow: auto;
+    width: 100%;
+    background-color: white;
+    margin-bottom: 1rem;
 }  
 
-.FullNav {
-    max-width: 960px;
-    margin: auto;
-}
-
 .NavBar {
-    background: white;
+    width: 100%;
+    text-align: center;
     padding: 20px;
     color: #666666;
     height: auto;
     text-align: center;
 }
 
+.Heading-Box {
+    text-align: center;
+    max-width: 150px;
+}
 
 
-section {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
+.FullNav {
+    max-width: 960px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 120px;
-    overflow: auto;
-    clear: both;
-    width: 960px;
-    background: white;
-    border-style: solid;
-    border-width: thin;
-    border-color: #dddddd; 
 }
+
+
 
 /* Text styles */
 h1 {
@@ -98,12 +76,27 @@ h2 {
     font-size: 20px;
 }
 
+/* Body styles */
+.Section-Content {
+    overflow: auto;
+    clear: both;
+    max-width: 960px;
+    background: white;
+    border-style: solid;
+    border-width: thin;
+    border-color: #dddddd; 
+    margin-top: 1rem;
+    padding: 1rem;
+    margin: auto;
+}
+
 .Section-Heading {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     color: #4aaaa5;
     font-size: 24px;
-    margin-top: 20px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
 }
 
 .Section-Border {
@@ -114,62 +107,20 @@ h2 {
 }
 
 /* Footer styles */
-.footer {
+.Footer {
     clear: both;
-    background:#666666;
-    padding: 15px;
+    background-color:#666666;
+    padding: 0.75rem;
     border-top-style: solid;
     border-width: 8px;
     width: 100%;
     border-color: #4aaaa5; 
     position: fixed;
     bottom: 0px;
-    height: 5%;
-}
-
-/* Global styles */
-h5 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: none;
-}
-    
-#Name {
-    padding: 20px;
-    width: 100%;
-    float: left;
-    position: absolute;
-    bottom: 0px;
-    font-size: 28px;
+    height: 1rem;
+    text-align: center;
     color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background:#4aaaa5;   
-    font-weight: bold;
-    z-index: 3;
-}   
-
-#Section-Heading {
-    padding-bottom: 20px;
-    margin: 20px;
-    border-bottom-style: solid;
-    border-color: #cccccc;
-    border-width: thin; 
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 24px;
 }
-
-/* About me styles */
-#About-Me-Image {
-    padding-right: 20px;
-    margin-top: 20px;
-    float: left;
-}
-
-#Body-Text {
-    height: 100%;
-    padding-right: 20px;
-    margin-top: 20px;
-}
-
 
 #Footer-Text {
     color: white;
@@ -179,6 +130,19 @@ h5 {
     bottom: 5px;
     left: 50%;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Global styles */
+h5 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: none;
+}   
+
+/* About me styles */
+.About-Me-Image {
+    float: left;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
 }
 
 /* Portfolio styles */
@@ -236,11 +200,37 @@ h5 {
     height: 300px;
 }
 
-.text-decoration {
-    color: #4aaaa5;
-    font-weight: bold;
+@media screen and (max-width: 768px)  {
+
 }
 
-.col-md-4 {
-    width: 100%;
+/* Small Screen Size Media Queries */
+@media screen and (max-width: 640px) {
+    .Heading-Box {
+        max-width: 640px;
+        width: 100%;
+        font-size: 16px;
+    }
+    
+    .navBar {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .Nav-Header {
+        height: 105px;
+    }
+    
+    .Section-Content {
+        margin: 1rem;
+        margin-bottom: 5rem;
+    }
+
+    .About-Me-Image {
+        width: 100%;
+    }
+    
+    .Body-Text {
+        width: 100%;
+    }
 }
